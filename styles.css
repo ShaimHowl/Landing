@@ -1,0 +1,75 @@
+.navbar{
+    background-color: grey;
+    margin: 15px;
+    text-align: center;
+    color: white; 
+}
+.nav-link{
+    color: rgb(5, 5, 228);
+}
+.nav-link:hover{
+    color: white;
+}
+.landing-container{
+    background-color: lightyellow;
+    text-align: center;
+    padding: 15px;
+}
+.header{
+    font: bold 80% cursive;
+    color: rgb(1, 8, 1);
+    padding: 10px;
+}
+.product-title{
+    font-size: 40px;
+}
+.product-subtitle{
+    font-size: 20px;
+    color: grey;
+}
+.hero-image{
+    max-width:550px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.hero-text{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    top: 50%;
+    left: 40%;
+}
+.product-description{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.cta-button{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+}
+.cta-button:hover{
+    color: white;
+}
+.main-footer{
+    color: black;
+    padding: 15px;
+    max-width: 1700px;
+    text-align: center;
+    background-color: black;
+}
+.footer-links{
+    color: white;
+}
+.footer-link{
+    color: blue;
+}
+.footer-link:hover{
+color: white;
+}
+.footer-text{
+    color: white;
+}
