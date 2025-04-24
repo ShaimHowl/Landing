@@ -19,6 +19,7 @@
     font: bold 80% cursive;
     color: rgb(1, 8, 1);
     padding: 10px;
+    
 }
 .product-title{
     font-size: 40px;
@@ -31,35 +32,37 @@
     max-width:550px;
     border-radius: 20px;
     margin-bottom: 25px;
+   
 }
 .hero-text{
     position: absolute;
     background-color: black;
-    color: white;
+    color: rgb(238, 231, 231);
     margin-bottom: 10px;
     font-size: 20px;
-    top: 50%;
+    top: 59%;
     left: 40%;
 }
 .product-description{
     font-size: 10px;
-    color: gray;
+    color: black;
     margin-bottom: 30px;
 }
 .cta-button{
-    background-color: greenyellow;
+    background-color: rgb(51, 151, 5);
     color: black;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .cta-button:hover{
-    color: white;
+    color: rgb(172, 13, 13);
 }
 .main-footer{
     color: black;
     padding: 15px;
     max-width: 1700px;
     text-align: center;
-    background-color: black;
+    background-color: grey;
+   
 }
 .footer-links{
     color: white;
@@ -72,4 +75,7 @@ color: white;
 }
 .footer-text{
     color: white;
+}
+body {
+    background-color: lightblue;
 }
