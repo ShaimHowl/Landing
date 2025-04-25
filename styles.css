@@ -1,20 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 .navbar{
     background-color: grey;
     margin: 15px;
     text-align: center;
-    color: white; 
+    color: blue; 
+    
 }
-.nav-link{
-    color: rgb(5, 5, 228);
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    padding: 15px;
+    justify-content: center;
+    gap: 15px;
+    color: blue;
 }
 .nav-link:hover{
     color: white;
 }
+.nav-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
 .landing-container{
-    background-color: lightyellow;
+    background-color: rgb(196, 196, 134);
     text-align: center;
     padding: 15px;
 }
+
 .header{
     font: bold 80% cursive;
     color: rgb(1, 8, 1);
@@ -26,10 +48,10 @@
 }
 .product-subtitle{
     font-size: 20px;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 .hero-image{
-    max-width:550px;
+    max-width:600px;
     border-radius: 20px;
     margin-bottom: 25px;
    
@@ -37,7 +59,7 @@
 .hero-text{
     position: absolute;
     background-color: black;
-    color: rgb(238, 231, 231);
+    color: rgb(238, 238, 238);
     margin-bottom: 10px;
     font-size: 20px;
     top: 59%;
@@ -51,7 +73,8 @@
 .cta-button{
     background-color: rgb(51, 151, 5);
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
+
 }
 .cta-button:hover{
     color: rgb(172, 13, 13);
@@ -59,7 +82,7 @@
 .main-footer{
     color: black;
     padding: 15px;
-    max-width: 1700px;
+    max-width: 1900px;
     text-align: center;
     background-color: grey;
    
@@ -79,3 +102,17 @@ color: white;
 body {
     background-color: lightblue;
 }
+.footer-links {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    padding: 15px;
+    justify-content: center;
+    gap: 15px;
+    color: blue;
+}
+
+
+
+
+
